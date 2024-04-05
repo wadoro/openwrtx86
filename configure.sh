@@ -18,7 +18,6 @@ rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
 
 echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
-# echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git wadoro https://github.com/wadoro/openwrt-package' >>feeds.conf.default
 
 # iStore
