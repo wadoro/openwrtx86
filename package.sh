@@ -5,11 +5,6 @@ git clone  https://github.com/zzsj0928/luci-app-pushbot package/otherapp/luci-ap
 
 # echo 'src-git wadoro https://github.com/wadoro/openwrt-package' >>feeds.conf.default
 git clone https://github.com/bootli/luci-app-v2ray-server.git package/v2ray
-echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-
-# iStore
-echo "src-git istore https://github.com/linkease/istore;main" >> feeds.conf.default
 
 # Theme
 # luci-theme-neobird
